@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <nav>
+         <a href="#">Inicio</a>
+         <a href="#">Cotação</a>
+         <a href="#">Historico</a>
+         <a href="#">Relatorio</a>
+    </nav>
+    <nav>
+        <a href="#">Nova Cotação</a>
+        <a href="#">Usuario</a>
+        
+        <a href="#">Configuração</a>
+    </nav>
+    <h1>Cotações em Aberto</h1>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Pesquise produto ou fornecedor...">
+        <button onclick="Pesquisar()">Pesquisar</button>
+    </div>
+    <table>
+        <thead>
+         <tr>
+         <th>Produto</th>
+         <th>Fornecedor</th>
+         <th>Preço</th>
+         <th>Marca</th>
+         <th>Data da Cotação</th>
+         </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Feijão 1k/93546F</td>
+            <td>Fornecedor A</td>
+            <td><R1>7,5</R1></td>
+            <td>X</td>
+            <td>13/06/2025</td>
+            </tr>
+            <tr>
+            <td>Feijão 1k/93546F</td>
+            <td>Fornecedor B</td>
+            <td><R1>25,79</R1></td>
+            <td>Y</td>
+            <td>13/06/2025</td>
+            </tr>
+            <tr>
+            <td>Feijão 1k/93546F</td>
+            <td>Fornecedor A</td>
+            <td><R1>7,5</R1></td>
+            <td>Z</td>
+            <td>13/06/2025</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
